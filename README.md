@@ -12,12 +12,9 @@ Example ZUID:
 
 ## Component 1: Entity Prefix
 
-The first component is a string that acts as a prefix, encoding that metadata.
+* Component 1 is an integer (ultimately stored as part of a string)
 
-* Component 1 is a hexadecimal string
-* It is typically encoded from a prefix stored as an integer
-
-These string prefixes are static and are provided in each library as some form of constant. Typically they are stored as integers and will need encoded as hex when generating an ID.
+These string integers are static representations of specific entity types and are provided in each library as some form of constant.
 
 ## Component 2: Time Encoded as a String
 
