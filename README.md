@@ -52,20 +52,4 @@ As hex:
 
 # ZUID Entity Prefixes
 
-Below as ZUID Entity Prefixes encoded as JSON. This document is the definitive source for these. All other libraries should conform to it.
-
-```json
-{
-    "USER": 5,
-
-    "SITE": 0,
-    "SET": 6,
-    "SET_ITEM": 7,
-    
-    "MEDIA_BIN": 1,
-    "MEDIA_FOLDER": 2,
-    "MEDIA_FILE": 3,
-    "MEDIA_FILE_MODIFIED": 4
-}
-```
-
+See `prefixes.json` for ZUID Entity Prefixes encoded as JSON. This file is the definitive source for prefixes. All other libraries should conform to it.
