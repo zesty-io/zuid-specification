@@ -13,6 +13,7 @@ Example ZUID:
 ## Component 1: Entity Prefix
 
 * Component 1 is an integer (ultimately stored as part of a string)
+* There is no direct limit on length of this component other than the total ZUID length of 50 characters. However, it is pretty unlikely it will exceed 5 characters.
 
 These string integers are static representations of specific entity types and are provided in each library as some form of constant.
 
@@ -21,6 +22,8 @@ These string integers are static representations of specific entity types and ar
 * This is encoded as hexidecimal like `a3f13d`
 * We substract `1420070400` to shorten the hash slightly
     * `1420070400` is January 1st, 2015 (in seconds), before the first zuid was generated
+* There is also no direct limit on the length of this component (other than the total ZUID length).
+
 
 Example:
 
