@@ -23,7 +23,7 @@
 
   "AUDIT_LOG_ENTRY": 15,
   
-  "ROLE": 31,
+  "ROLE": 30,
   "SYSTEM_ROLE": 31,
   "GRANULAR_ROLE": 32
   
