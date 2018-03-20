@@ -25,6 +25,7 @@
   
   "ROLE": 30,
   "SYSTEM_ROLE": 31,
-  "GRANULAR_ROLE": 32
+  "GRANULAR_ROLE": 32,
   
+  "INSTANCE_PLAN" : 50
 }
