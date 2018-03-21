@@ -29,5 +29,7 @@
   
   "INSTANCE_PLAN" : 50,
   
-  "COMPANY": 60
+  "COMPANY": 60,
+  
+  "INVITE": 70
 }
