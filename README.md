@@ -7,49 +7,50 @@
 Example ZUID:
 
 ```
-1-1b123a2f0-qw2n4
+structure: component1-component2-component3
+lengths: maxlen5-maxlen10-maxlen35
+
+e.g. 1-1b123a2f0-qw2n4
 ```
 
 ## Component 1: Entity Prefix
 
-* Component 1 is an integer (ultimately stored as part of a string)
-* There is no direct limit on length of this component other than the total ZUID length of 50 characters. However, it is pretty unlikely it will exceed 5 characters.
+* Is an integer (ultimately stored as part of a string)
+* Limited to 5 characters.
 
-These string integers are static representations of specific entity types and are provided in each library as some form of constant.
+*These string integers are static representations of specific entity types and are provided in each library as some form of constant.*
 
 ## Component 2: Time Encoded as a String
 
-* This is encoded as hexidecimal like `a3f13d`
-* We substract `1420070400` to shorten the hash slightly
-    * `1420070400` is January 1st, 2015 (in seconds), before the first zuid was generated
-* There is also no direct limit on the length of this component (other than the total ZUID length).
-
+* __Can NOT be seconds based measurement.__ This is not precise enough for unique hashes.
+* Must be 10 characters
+* Encoded as hexidecimal string like `d0f1b38ad3`
 
 Example:
 
 ```
 Date (and time):
-Wed Apr 12 2017 14:53:06 GMT-0700 (PDT)
+2018-03-23 14:36:18.643025 -0700 PDT m=+0.000811554
 
-In seconds:
-1492033987
+In nano seconds:
+1521840978643025000
 
 As hex:
-"58eea1c3"
+"d0f1b38ad3"
 ```
 
 ## Component 3: A Random Alphanumeric String
 
 * This is a random alphanumeric string.
-* It is by default generated as 5 characters long.
-* It can be generated as up to 15 characters if more possibilities as desired
-* It randomly selects from the characters `bcdfghjklmnpqrstvwxz0123456789`
+* Minimum of 6 character length.
+* Maximum of 35 characters length.
+* It randomly selects from the character set `bcdfghjklmnpqrstvwxz0123456789`
 * It does not use vowels to avoid forming words in IDs
 
 
 # Libraries
 
-* [zuid-js](https://github.com/zesty-io/zuid-specification)
+* [zuid-js](https://github.com/zesty-io/zuid-js)
 * [zuid-php](https://github.com/zesty-io/zuid-php)
 * [zuid-mysql](https://github.com/zesty-io/zuid-mysql)
 
