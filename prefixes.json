@@ -31,5 +31,7 @@
   
   "COMPANY": 60,
   
-  "INVITE": 70
+  "INVITE": 70,
+  
+  "THIRD_PARTY_APPLICATION": 90
 }
