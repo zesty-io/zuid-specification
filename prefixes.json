@@ -35,6 +35,7 @@
   "TEAM_INVITE": 66,
   
   "INVITE": 70,
+  "USER_EMAIL":71,
   
   "THIRD_PARTY_APPLICATION": 90
 }
