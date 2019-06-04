@@ -19,9 +19,6 @@
   "SITE_DOMAIN": 22,
   "LEAD": 23,
   
-  "CONTENT_MODEL_VIEW": 25,
-  "ENDPOINT_VIEW": 26,
-
   "MEDIA_BIN": 1,
   "MEDIA_FOLDER": 2,
   "MEDIA_FILE": 3,
