@@ -33,6 +33,9 @@
 
   "WEBHOOK": 40,
   "INSTANCE_PLAN": 50,
+  
+  "API_TOKEN": 55,  
+  "API_TOKEN_USER": 55,  
 
   "COMPANY": 60,
 
