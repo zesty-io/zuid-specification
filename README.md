@@ -1,7 +1,7 @@
 # ZUID Specification
 
 * A ZUID is a string
-* A ZUID is typically 15-20 characters in length, but may be up to 50 characters (a `VARCHAR(50)` in MySQL is recommended)
+* A ZUID is typically 15-20 characters in length, but may be up to 50 characters
 * A ZUID contains 3 components, separated by hyphens/dashes
 
 Example ZUID:
