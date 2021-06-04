@@ -1,6 +1,6 @@
 # ZUID Specification
 
-Zesty Unique Identifers (ZUID) 'zoo-id' are used to label each Zesty.io created resources from content to users to media to content fields etc. everything has a ZUID. ZUID are used for data referencing in the user interfaces and rest APIs. ZUIDs are also bound to Audit Trail Logs in the system.  
+Zesty Unique Identifiers (ZUID) '/zoo ids/' are used to label each Zesty.io created resource from content to users to media to content fields etc. everything has a ZUID. ZUID are used for data referencing in the user interfaces and rest APIs. ZUIDs are also bound to Audit Trail Logs in the system.
 
 * A ZUID is a string
 * A ZUID is typically 15-20 characters in length, but may be up to 50 characters
