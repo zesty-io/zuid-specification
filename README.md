@@ -5,6 +5,7 @@ Zesty Unique Identifiers (ZUID) '/zoo ids/' are used to label each Zesty.io crea
 * A ZUID is a string
 * A ZUID is typically 15-20 characters in length, but may be up to 50 characters
 * A ZUID contains 3 components, separated by hyphens/dashes
+* A ZUID should contain all lowercase alpha characters
 
 Example ZUID:
 
